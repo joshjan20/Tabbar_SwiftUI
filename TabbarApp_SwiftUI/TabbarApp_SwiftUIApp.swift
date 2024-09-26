@@ -12,6 +12,7 @@ struct TabbarApp_SwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
         }
     }
 }

@@ -41,6 +41,7 @@ struct HomeView: View {
     }
 }
 
+
 struct SearchView: View {
     var body: some View {
         VStack {
