@@ -13,10 +13,14 @@
 		52A1D6EC2CA5C3EA00698A6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A1D6EA2CA5C3EA00698A6B /* Main.storyboard */; };
 		52A1D6EE2CA5C3ED00698A6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A1D6ED2CA5C3ED00698A6B /* Assets.xcassets */; };
 		52A1D6F12CA5C3ED00698A6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A1D6EF2CA5C3ED00698A6B /* LaunchScreen.storyboard */; };
+		52A1D6F92CA5C47200698A6B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A1D6F82CA5C47200698A6B /* HomeViewController.swift */; };
+		52A1D6FB2CA5C47C00698A6B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A1D6FA2CA5C47C00698A6B /* SearchViewController.swift */; };
+		52A1D6FD2CA5C48E00698A6B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A1D6FC2CA5C48E00698A6B /* SettingsViewController.swift */; };
+		52A1D7012CA5C84800698A6B /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 52A1D7002CA5C84800698A6B /* demo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52A1D6E12CA5C3EA00698A6B /* TabbarApp_UIKit_Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarApp_UIKit_Storyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A1D6E12CA5C3EA00698A6B /* TabbarApp_UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarApp_UIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A1D6E42CA5C3EA00698A6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52A1D6E62CA5C3EA00698A6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		52A1D6E82CA5C3EA00698A6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +28,10 @@
 		52A1D6ED2CA5C3ED00698A6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A1D6F02CA5C3ED00698A6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52A1D6F22CA5C3ED00698A6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A1D6F82CA5C47200698A6B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		52A1D6FA2CA5C47C00698A6B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		52A1D6FC2CA5C48E00698A6B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		52A1D7002CA5C84800698A6B /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +48,8 @@
 		52A1D6D82CA5C3EA00698A6B = {
 			isa = PBXGroup;
 			children = (
-				52A1D6E32CA5C3EA00698A6B /* TabbarApp_UIKit_Storyboard */,
+				52A1D7002CA5C84800698A6B /* demo.mp4 */,
+				52A1D6E32CA5C3EA00698A6B /* TabbarApp_UIKit */,
 				52A1D6E22CA5C3EA00698A6B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,14 +57,17 @@
 		52A1D6E22CA5C3EA00698A6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52A1D6E12CA5C3EA00698A6B /* TabbarApp_UIKit_Storyboard.app */,
+				52A1D6E12CA5C3EA00698A6B /* TabbarApp_UIKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52A1D6E32CA5C3EA00698A6B /* TabbarApp_UIKit_Storyboard */ = {
+		52A1D6E32CA5C3EA00698A6B /* TabbarApp_UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				52A1D6FC2CA5C48E00698A6B /* SettingsViewController.swift */,
+				52A1D6FA2CA5C47C00698A6B /* SearchViewController.swift */,
+				52A1D6F82CA5C47200698A6B /* HomeViewController.swift */,
 				52A1D6E42CA5C3EA00698A6B /* AppDelegate.swift */,
 				52A1D6E62CA5C3EA00698A6B /* SceneDelegate.swift */,
 				52A1D6E82CA5C3EA00698A6B /* ViewController.swift */,
@@ -64,15 +76,15 @@
 				52A1D6EF2CA5C3ED00698A6B /* LaunchScreen.storyboard */,
 				52A1D6F22CA5C3ED00698A6B /* Info.plist */,
 			);
-			path = TabbarApp_UIKit_Storyboard;
+			path = TabbarApp_UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52A1D6E02CA5C3EA00698A6B /* TabbarApp_UIKit_Storyboard */ = {
+		52A1D6E02CA5C3EA00698A6B /* TabbarApp_UIKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52A1D6F52CA5C3ED00698A6B /* Build configuration list for PBXNativeTarget "TabbarApp_UIKit_Storyboard" */;
+			buildConfigurationList = 52A1D6F52CA5C3ED00698A6B /* Build configuration list for PBXNativeTarget "TabbarApp_UIKit" */;
 			buildPhases = (
 				52A1D6DD2CA5C3EA00698A6B /* Sources */,
 				52A1D6DE2CA5C3EA00698A6B /* Frameworks */,
@@ -82,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = TabbarApp_UIKit_Storyboard;
+			name = TabbarApp_UIKit;
 			productName = TabbarApp_UIKit_Storyboard;
-			productReference = 52A1D6E12CA5C3EA00698A6B /* TabbarApp_UIKit_Storyboard.app */;
+			productReference = 52A1D6E12CA5C3EA00698A6B /* TabbarApp_UIKit.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 52A1D6DC2CA5C3EA00698A6B /* Build configuration list for PBXProject "TabbarApp_UIKit_Storyboard" */;
+			buildConfigurationList = 52A1D6DC2CA5C3EA00698A6B /* Build configuration list for PBXProject "TabbarApp_UIKit" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52A1D6E02CA5C3EA00698A6B /* TabbarApp_UIKit_Storyboard */,
+				52A1D6E02CA5C3EA00698A6B /* TabbarApp_UIKit */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +139,7 @@
 			files = (
 				52A1D6F12CA5C3ED00698A6B /* LaunchScreen.storyboard in Resources */,
 				52A1D6EE2CA5C3ED00698A6B /* Assets.xcassets in Resources */,
+				52A1D7012CA5C84800698A6B /* demo.mp4 in Resources */,
 				52A1D6EC2CA5C3EA00698A6B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A1D6FB2CA5C47C00698A6B /* SearchViewController.swift in Sources */,
 				52A1D6E92CA5C3EA00698A6B /* ViewController.swift in Sources */,
 				52A1D6E52CA5C3EA00698A6B /* AppDelegate.swift in Sources */,
 				52A1D6E72CA5C3EA00698A6B /* SceneDelegate.swift in Sources */,
+				52A1D6F92CA5C47200698A6B /* HomeViewController.swift in Sources */,
+				52A1D6FD2CA5C48E00698A6B /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +353,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52A1D6DC2CA5C3EA00698A6B /* Build configuration list for PBXProject "TabbarApp_UIKit_Storyboard" */ = {
+		52A1D6DC2CA5C3EA00698A6B /* Build configuration list for PBXProject "TabbarApp_UIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52A1D6F32CA5C3ED00698A6B /* Debug */,
@@ -346,7 +362,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52A1D6F52CA5C3ED00698A6B /* Build configuration list for PBXNativeTarget "TabbarApp_UIKit_Storyboard" */ = {
+		52A1D6F52CA5C3ED00698A6B /* Build configuration list for PBXNativeTarget "TabbarApp_UIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52A1D6F62CA5C3ED00698A6B /* Debug */,
